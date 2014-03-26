@@ -40,10 +40,11 @@ end
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
-end
-group :development, :test do
   gem 'capybara'
+  gem 'factory_girl_rails', '4.2.1'
 end
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
