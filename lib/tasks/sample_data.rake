@@ -1,5 +1,4 @@
 namespace :db
-
 def make_users
   admin = User.create!(name: "Example User",
                        email: "example@railstutorial.org",
